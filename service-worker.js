@@ -41,6 +41,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event)
 {
+  caches.delete(CACHE_NAME);
 });
 
 self.addEventListener('fetch', function(event)
