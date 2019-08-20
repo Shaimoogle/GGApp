@@ -4,7 +4,7 @@
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/GGApp/service-worker.js').then(function(registration) {
+    navigator.serviceWorker.register('https://shaimoogle.github.io/GGApp/service-worker.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
@@ -17,7 +17,7 @@ if ('serviceWorker' in navigator) {
 
 
 <head>
-<link rel="manifest" href="/GGApp/manifest.json">
+<link rel="manifest" href="https://shaimoogle.github.io/GGApp/manifest.json">
 <title>GGApp</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="#2F3BA2">
