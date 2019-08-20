@@ -39,9 +39,17 @@ self.addEventListener('install', function(event) {
   );
 });
 
-self.addEventListener('activate', function(event)
-{
-  caches.delete(CACHE_NAME);
+self.addEventListener('activate', function(event) {
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(async function() {
+    try {
+      return await fetch(event.request);
+    } catch (err) {
+      return caches.match(event.request);
+    }
+  }());
 });
 
 self.addEventListener('fetch', function(event)
