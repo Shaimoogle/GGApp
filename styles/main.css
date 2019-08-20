@@ -39,7 +39,7 @@ body
 
 #sidebar.inactive
 {
-    margin-left:-250px;
+    margin-left:0px;
 }
 
 #content
