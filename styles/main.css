@@ -14,8 +14,6 @@ body
 {
     background-color :#73a9ff;
     color: white;
-    min-width: 100%;
-    max-width: 100%;
 }
 
 #sidebar
@@ -37,4 +35,6 @@ body
 {
     background-color : white;
     color: #73a9ff;
+    min-width: 100%;
+    max-width: 100%;
 }
