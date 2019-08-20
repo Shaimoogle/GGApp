@@ -7,8 +7,11 @@ var urlsToCache = [
 ];
 
 self.addEventListener('install', event => {
+  self.skipWaiting();
   const preCache = async() => {
     const cache = await caches.open(CACHE_NAME);
     return cache.addAll(urlsToCache);
-  }
-})
+  };
+
+  event.waitUntil(preCache());
+});
