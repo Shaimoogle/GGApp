@@ -20,6 +20,7 @@ body
 {
     background-color :#73a9ff;
     color: white;
+    height : 100px;
 }
 
 #sidebar
@@ -42,4 +43,16 @@ body
 {
     background-color : white;
     color: #73a9ff;
+}
+
+.sidebar_button
+{
+    color:white;
+}
+
+.sidebar_button_bottomshadow
+{
+    background-color:white;
+    height: 10px;
+    width: 100%;
 }
