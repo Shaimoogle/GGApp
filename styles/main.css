@@ -1,35 +1,26 @@
-.wrapper {
+body
+{
     display: flex;
-    align-items: stretch;
+    width: 100%;
 }
 
-#sidebar {
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-    background-color :#03a9fc;
+.headbar
+{
+    background-color :#73a9ff;
     color: white;
 }
 
-#sidebar.active {
-    margin-left: -250px;
-}
-
-@media (max-width: 768px) {
-    #sidebar {
-        margin-left: -250px;
-    }
-    #sidebar.active {
-        margin-left: 0;
-    }
-}
-
-#sidebar_button
+.sidebar
 {
-    color:white;
+    background-color :#73a9ff;
+    color: white;
+    min-width: 40%;
+    max-width: 40%;
+    margin-left: -40%;
 }
 
-#content_text
+.content
 {
-    color:#03a9fc;
+    background-color : white;
+    color: #73a9ff;
 }
