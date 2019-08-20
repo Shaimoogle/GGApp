@@ -3,7 +3,8 @@ var urlsToCache = [
   'https://shaimoogle.github.io/GGApp/',
   'https://shaimoogle.github.io/GGApp/styles/main.css',
   'https://shaimoogle.github.io/GGApp/script/main.js',
-  'https://shaimoogle.github.io/GGApp/offline.html'
+  'https://shaimoogle.github.io/GGApp/offline.html',
+  'https://shaimoogle.github.io/GGApp/page2.html'
 ];
 
 self.addEventListener('install', function(event) {
