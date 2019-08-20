@@ -5,4 +5,9 @@ $(document).ready(function () {
         $("#blackveil").toggleClass('active');
     });
 
+    $('#blackveil').on('click', function(){
+        $("#sidebar").toggleClass('active');
+        $("#blackveil").toggleClass('active');
+    });
+
 });
