@@ -30,15 +30,12 @@ body
     max-width: 250px;
     height: 100%;
     transition: all 0.5s;
+    margin-left:-250px;
 }
 
 #sidebar.active
 {
-    margin-left:250px;
-}
-
-#sidebar.inactive
-{
+    margin-left:0px;
 }
 
 #content
