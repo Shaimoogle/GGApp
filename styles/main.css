@@ -60,6 +60,7 @@ body
 
 #blackveil
 {
+    visibility: hidden;
     position: absolute;
     width:100%;
     height:100%;
@@ -70,5 +71,6 @@ body
 
 #blackveil.active
 {
+    visibility: visible;
     opacity:0.4;
 }
