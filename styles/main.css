@@ -27,6 +27,7 @@ body
 
 #sidebar
 {
+    position: absolute;
     color: #73a9ff;
     min-width: 250px;
     max-width: 250px;
