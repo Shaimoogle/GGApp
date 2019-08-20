@@ -23,6 +23,18 @@ self.addEventListener('activate', function(event)
 
 self.addEventListener('fetch', function(event)
 {
+  if(event.request.mode !== 'navigate')
+  {
+    return;
+  }
+  event.respondWith(fetch(event.request).catch(function()
+  {
+    return caches.open(CACHE_NAME).then(function(cache)
+    {
+      return cache.match('https://shaimoogle.github.io/GGApp/offline.html');
+    });
+  }));
+
   event.respondWith(caches.match(event.request).then(function(response){
     if(response)
     {
@@ -42,18 +54,6 @@ self.addEventListener('fetch', function(event)
       });
 
       return response;
-    });
-  }));
-
-  if(event.request.mode !== 'navigate')
-  {
-    return;
-  }
-  event.respondWith(fetch(event.request).catch(function()
-  {
-    return caches.open(CACHE_NAME).then(function(cache)
-    {
-      return cache.match('https://shaimoogle.github.io/GGApp/offline.html');
     });
   }));
 
