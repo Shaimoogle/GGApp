@@ -1,8 +1,8 @@
 var CACHE_NAME = 'ggapp-cache-v1';
 var urlsToCache = [
-  '/',
-  '/styles/main.css',
-  '/script/main.js'
+  'https://shaimoogle.github.io/GGApp/',
+  'https://shaimoogle.github.io/GGApp/styles/main.css',
+  'https://shaimoogle.github.io/GGApp/script/main.js'
 ];
 
 self.addEventListener('install', function(event) {
