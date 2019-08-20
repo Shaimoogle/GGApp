@@ -18,15 +18,16 @@ body
 
 #headbar
 {
-    background-color :#73a9ff;
-    color: white;
-    height : 100px;
+    color: #73a9ff;
+    height : 50px;
+    border-bottom-style: solid;
+    border-bottom-color: #73a9ff;
+    border-bottom-width: 1px;
 }
 
 #sidebar
 {
-    background-color :#73a9ff;
-    color: white;
+    color: #73a9ff;
     min-width: 250px;
     max-width: 250px;
     height: 100%;
@@ -34,6 +35,10 @@ body
     margin-left:-250px;
     display:flex;
     flex-direction: column;
+
+    border-right-style: solid;
+    border-right-color: #73a9ff;
+    border-right-width: 1px;
 }
 
 #sidebar.active
