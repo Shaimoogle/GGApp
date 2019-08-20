@@ -5,13 +5,13 @@ body
     align-items:stretch;
 }
 
-.headbar
+#headbar
 {
     background-color :#73a9ff;
     color: white;
 }
 
-.sidebar
+#sidebar
 {
     background-color :#73a9ff;
     color: white;
@@ -20,7 +20,7 @@ body
     margin-left: -40%;
 }
 
-.content
+#content
 {
     background-color : white;
     color: #73a9ff;
