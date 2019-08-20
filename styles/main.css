@@ -19,7 +19,7 @@ body
     min-width: 250px;
     max-width: 250px;
     height: 100%;
-    transition:0.016s;
+    transition: all 0.016s;
 }
 
 #sidebar.active
