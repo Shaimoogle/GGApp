@@ -6,14 +6,9 @@ var urlsToCache = [
   '/offline.html'
 ];
 
-
-self.addEventListener('install', function(event) {
-  //Installation steps
-  console.log('[Service-Worker]:Installation');
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(function(cache) {
-      console.log('[Service-Worker]:Pre-caching');
-      return cache.addAll(urlsToCache)
-    })
-  )
-});
+self.addEventListener('install', event => {
+  const preCache = async() => {
+    const cache = await caches.open(CACHE_NAME);
+    return cache.addAll(urlsToCache);
+  }
+})
