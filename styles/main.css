@@ -56,3 +56,15 @@ body
 {
     color:white;
 }
+
+#blackveil
+{
+    color:black;
+    opacity:0%;
+    transition : all 0.5s;
+}
+
+#blackveil.active
+{
+    opacity:40%;
+}
