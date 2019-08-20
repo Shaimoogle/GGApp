@@ -1,10 +1,31 @@
 var CACHE_NAME = 'ggapp-cache-v1';
 var urlsToCache = [
   'https://shaimoogle.github.io/GGApp/',
-  'https://shaimoogle.github.io/GGApp/styles/main.css',
-  'https://shaimoogle.github.io/GGApp/script/main.js',
   'https://shaimoogle.github.io/GGApp/offline.html',
-  'https://shaimoogle.github.io/GGApp/page2.html'
+  'https://shaimoogle.github.io/GGApp/page2.html',
+  'https://shaimoogle.github.io/GGApp/styles/main.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.css.map',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.min.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.min.css.map',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-reboot.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-reboot.css.map',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-reboot.min.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap-reboot.min.css.map',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap.css.map',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap.min.css',
+  'https://shaimoogle.github.io/GGApp/styles/bootstrap.min.css.map',
+  'https://shaimoogle.github.io/GGApp/scripts/main.js',
+  'https://shaimoogle.github.io/GGApp/scripts/jquery-3.4.1.min.js',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.bundle.js',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.bundle.js.map',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.bundle.min.js',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.bundle.min.js.map',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.js',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.js.map',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.min.js',
+  'https://shaimoogle.github.io/GGApp/scripts/bootstrap.min.js.map'
 ];
 
 self.addEventListener('install', function(event) {
