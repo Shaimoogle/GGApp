@@ -1,4 +1,4 @@
-var CACHE_NAME = 'gg-cache-v1';
+var CACHE_NAME = 'ggapp-cache-v1';
 var urlsToCache = [
   '/',
   '/styles/main.css',
