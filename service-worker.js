@@ -1,17 +1,17 @@
-var CACHE_NAME = 'ggapp-cache-v1';
+var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   '/',
   '/styles/main.css',
-  '/script/main.js',
-  '/offline.html'
+  '/script/main.js'
 ];
 
-self.addEventListener('install', event => {
-  self.skipWaiting();
-  const preCache = async() => {
-    const cache = await caches.open(CACHE_NAME);
-    return cache.addAll(urlsToCache);
-  };
-
-  event.waitUntil(preCache());
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
 });
