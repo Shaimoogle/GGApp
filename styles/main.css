@@ -18,7 +18,6 @@ body
 
 #headbar
 {
-    color: #73a9ff;
     height : 50px;
     border-bottom-style: solid;
     border-bottom-color: #73a9ff;
@@ -30,6 +29,7 @@ body
 #title
 {
     font-weight: bold;
+    color: #73a9ff;
 }
 
 #sidebar
