@@ -1,3 +1,9 @@
+function hideSidebar()
+{
+    $("#sidebar").removeClass('active');
+    $("#blackveil").removeClass('active');
+}
+
 $(document).ready(function () {
 
     $('#sidebarCollapse').on('click', function(){
@@ -12,15 +18,13 @@ $(document).ready(function () {
 
     $('#chat_button').on('click', function() {
         $("#content").load('https://shaimoogle.github.io/GGApp/chat.html');
-        $("#sidebar").removeClass('active');
-        $("#blackveil").removeClass('active');
     })
 
     $('#invoices_button').on('click', function() {
         $("#content").load('https://shaimoogle.github.io/GGApp/invoices.html');
-        $("#sidebar").removeClass('active');
-        $("#blackveil").removeClass('active');
     })
+
+    $('.sidebar_button').on('click', hideSidebar())
 
 
 });
