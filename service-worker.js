@@ -1,8 +1,9 @@
 var CACHE_NAME = 'ggapp-cache-v3';
 var urlsToCache = [
   'https://shaimoogle.github.io/GGApp/',
-  'https://shaimoogle.github.io/GGApp/offline.html',
-  'https://shaimoogle.github.io/GGApp/page2.html',
+  'https://shaimoogle.github.io/GGApp/chat.html',
+  'https://shaimoogle.github.io/GGApp/invoices.html',
+  'https://shaimoogle.github.io/GGApp/timetable.html',
   'https://shaimoogle.github.io/GGApp/styles/main.css',
   'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.css',
   'https://shaimoogle.github.io/GGApp/styles/bootstrap-grid.css.map',
