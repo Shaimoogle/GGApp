@@ -1,9 +1,3 @@
-function hideSidebar()
-{
-    $("#sidebar").removeClass('active');
-    $("#blackveil").removeClass('active');
-}
-
 $(document).ready(function () {
 
     $('#sidebarCollapse').on('click', function(){
@@ -24,7 +18,11 @@ $(document).ready(function () {
         $("#content").load('https://shaimoogle.github.io/GGApp/invoices.html');
     })
 
-    $('.sidebar_button').on('click', hideSidebar())
+    $('.sidebar_button').on('click', function()
+    {
+        $("#sidebar").removeClass('active');
+        $("#blackveil").removeClass('active');
+    })
 
 
 });
