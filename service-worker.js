@@ -55,7 +55,7 @@ self.addEventListener('activate', function(event) {
   }));
 });
 
-self.addEventListener('fetch', (event) => {
+/*self.addEventListener('fetch', (event) => {
   event.respondWith(async function() {
     try {
       return await fetch(event.request);
@@ -63,7 +63,7 @@ self.addEventListener('fetch', (event) => {
       return caches.match(event.request);
     }
   }());
-});
+});*/
 
 self.addEventListener('fetch', function(event)
 {
