@@ -40,6 +40,18 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
+  var cacheWhitelist = ['ggapp-cache-v2'];
+
+  event.waitUntil(caches.keys().then(function(keyList)
+  {
+    return Promise.all(keyList.map(function(key)
+    {
+      if(cacheWhitelist.indexOf(key) === -1)
+      {
+        return caches.delete(key);
+      }
+    }));
+  }));
 });
 
 self.addEventListener('fetch', (event) => {
