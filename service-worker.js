@@ -40,7 +40,7 @@ self.addEventListener('install', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-  var cacheWhitelist = ['ggapp-cache-v2'];
+  var cacheWhitelist = [CACHE_NAME];
 
   event.waitUntil(caches.keys().then(function(keyList)
   {
