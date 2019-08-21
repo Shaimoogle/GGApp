@@ -23,7 +23,7 @@ body
     border-bottom-color: #73a9ff;
     border-bottom-width: 1px;
     display: flex;
-    flex-direction: space-between;
+    justify-content: space-between;
 }
 
 #title
