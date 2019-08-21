@@ -23,6 +23,8 @@ body
     border-bottom-style: solid;
     border-bottom-color: #73a9ff;
     border-bottom-width: 1px;
+    display: flex;
+    flex-direction: space-between;
 }
 
 #sidebar
