@@ -48,6 +48,7 @@ self.addEventListener('activate', function(event) {
     {
       if(cacheWhitelist.indexOf(key) === -1)
       {
+        console.log('[Service-Worker]:Deleted old cache');
         return caches.delete(key);
       }
     }));
