@@ -25,6 +25,9 @@ body
     display: flex;
     justify-content: space-between;
     text-align: center;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #title
