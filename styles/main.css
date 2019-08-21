@@ -24,12 +24,15 @@ body
     border-bottom-width: 1px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 #title
 {
     font-weight: bold;
     color: #73a9ff;
+    min-width: 60%;
+    max-width: 70%;
 }
 
 #sidebar
@@ -85,4 +88,6 @@ body
     border-bottom-style: solid;
     border-bottom-color: #73a9ff;
     border-bottom-width: 1px;
+    min-width: 25px;
+    max-width: 25px;
 }
