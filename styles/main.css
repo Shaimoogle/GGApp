@@ -31,8 +31,7 @@ body
 {
     font-weight: bold;
     color: #73a9ff;
-    min-width: 60%;
-    max-width: 60%;
+    padding-left: 50%;
 }
 
 #sidebar
