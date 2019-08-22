@@ -24,10 +24,11 @@ $(document).ready(function () {
         $("#sidebar").removeClass('active');
         $("#blackveil").removeClass('active');
         $(this).find(".sidebar_button_blackveil").addClass('active');
+        var concernedBlackveil = $(this).find(".sidebar_button_blackveil");
         setTimeout(function()
         {
             console.log("Here");
-            $(this).find(".sidebar_button_blackveil").removeClass('active');
+            concernedBlackveil.removeClass('active');
             console.log("Here2");
         }, 600);
     })
