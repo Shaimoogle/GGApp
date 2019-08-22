@@ -3,6 +3,7 @@ $(document).ready(function () {
     $('#sidebarCollapse').on('click', function(){
         $("#sidebar").addClass('active');
         $("#blackveil").addClass('active');
+
     });
 
     $('#blackveil').on('click', function(){
@@ -22,6 +23,7 @@ $(document).ready(function () {
     {
         $("#sidebar").removeClass('active');
         $("#blackveil").removeClass('active');
+        $(this).children().addClass('active').delay(200).removeClass('active');
     })
 
 
