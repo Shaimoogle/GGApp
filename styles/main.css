@@ -2,7 +2,7 @@
 {
     --main-color: #73a9ff;
 
-    --title-margin: 16px 30%;
+    --title-margin: 12px 0;
 
     --border-width: 1px;
 
@@ -55,6 +55,7 @@ body
     font-weight: bold;
     color: var(--main-color);
     margin: var(--title-margin);
+    width: 100%;
 }
 
 #sidebar
