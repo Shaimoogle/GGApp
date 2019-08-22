@@ -29,14 +29,14 @@ body
 
 #sidebarCollapse
 {
-    padding: 0 15px;
+    margin: 10px 15px;
 }
 
 #title
 {
     font-weight: bold;
     color: #73a9ff;
-    padding: 0 50px;
+    margin: 12px 750px;
 }
 
 #sidebar
