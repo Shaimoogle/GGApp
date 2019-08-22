@@ -2,6 +2,8 @@
 {
     --main-color: #73a9ff;
 
+    --border-width: 1px;
+
     --blackveil-opacity: 0.7;
     --blackveil-opacity-speed: all 0.5s;
 
@@ -34,7 +36,7 @@ body
     height : 50px;
     border-bottom-style: solid;
     border-bottom-color: var(--main-color);
-    border-bottom-width: 1px;
+    border-bottom-width: var(--border-width);
     display: flex;
     justify-content: start;
     text-align: center;
@@ -68,7 +70,7 @@ body
 
     border-right-style: solid;
     border-right-color: var(--main-color);
-    border-right-width: 1px;
+    border-right-width: var(--border-width);;
 }
 
 #sidebar.active
@@ -80,7 +82,7 @@ body
 {
     border-bottom-style: solid;
     border-bottom-color: var(--main-color);
-    border-bottom-width: 1px;
+    border-bottom-width: var(--border-width);;
 }
 
 .sidebar_button
@@ -89,7 +91,7 @@ body
     padding-bottom : var(--sidebar-button-y-padding);
     border-bottom-style: solid;
     border-bottom-color: var(--main-color);
-    border-bottom-width: 1px;
+    border-bottom-width: var(--border-width);;
     transition: all 0.5s;
 }
 
@@ -99,7 +101,7 @@ body
     position:absolute;
     width:100%;
     height: var(--sidebar-button-blackveil-height);
-    margin-top: var(--sidebar-button-y-padding);
+    margin-top: calc(-1 * var(--sidebar-button-y-padding));
     background-color:black;
     opacity:0.0;
     transition : var(--sidebar-button-blackveil-speed);
