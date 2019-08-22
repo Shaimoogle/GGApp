@@ -88,7 +88,7 @@ body
 
 .sidebar_button
 {
-    padding: var(--sidebar-button-y-padding) var(--sidebar-button-y-padding);
+    padding: var(--sidebar-button-y-padding) var(--sidebar-button-x-padding);
     border-bottom-style: solid;
     border-bottom-color: var(--main-color);
     border-bottom-width: var(--border-width);;
@@ -111,6 +111,11 @@ body
 {
     visibility: visible;
     opacity:var(--sidebar-button-blackveil-opacity);
+}
+
+.sidebar_button_icons
+{
+    padding-right: var(--sidebar-button-x-padding);
 }
 
 #content
