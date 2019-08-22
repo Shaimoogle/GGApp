@@ -11,12 +11,22 @@ $(document).ready(function () {
         $("#blackveil").removeClass('active');
     });
 
+    $("#content").load('https://shaimoogle.github.io/GGApp/homepage.html');
+
+    $('#homepage_button').on('click', function() {
+        $("#content").load('https://shaimoogle.github.io/GGApp/homepage.html');
+    })
+
     $('#chat_button').on('click', function() {
         $("#content").load('https://shaimoogle.github.io/GGApp/chat.html');
     })
 
     $('#invoices_button').on('click', function() {
         $("#content").load('https://shaimoogle.github.io/GGApp/invoices.html');
+    })
+
+    $('#timetable_button').on('click', function() {
+        $("#content").load('https://shaimoogle.github.io/GGApp/timetable.html');
     })
 
     $('.sidebar_button').on('click', function()
