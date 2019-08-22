@@ -3,6 +3,7 @@
     --main-color: #73a9ff;
 
     --title-margin: 12px 0;
+    --title-size: large;
 
     --border-width: 1px;
 
@@ -56,6 +57,7 @@ body
     color: var(--main-color);
     margin: var(--title-margin);
     width: 100%;
+    font-size: var(--title-size);
 }
 
 #sidebar
