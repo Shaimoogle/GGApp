@@ -26,7 +26,9 @@ $(document).ready(function () {
         $(this).find(".sidebar_button_blackveil").addClass('active');
         setTimeout(function()
         {
+            console.log("Here");
             $(this).find(".sidebar_button_blackveil").removeClass('active');
+            console.log("Here2");
         }, 600);
     })
 
