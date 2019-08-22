@@ -27,7 +27,7 @@ $(document).ready(function () {
         setTimeout(function()
         {
             $(this).find(".sidebar_button_blackveil").removeClass('active');
-        })
+        }, 600);
     })
 
 
