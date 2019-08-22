@@ -27,10 +27,8 @@ $(document).ready(function () {
         var concernedBlackveil = $(this).find(".sidebar_button_blackveil");
         setTimeout(function()
         {
-            console.log("Here");
             concernedBlackveil.removeClass('active');
-            console.log("Here2");
-        }, 600);
+        }, 200);
     })
 
 
