@@ -1,4 +1,4 @@
-var CACHE_NAME = 'ggapp-cache-v3';
+var CACHE_NAME = 'ggapp-cache-v4';
 var urlsToCache = [
   'https://shaimoogle.github.io/GGApp/',
   'https://shaimoogle.github.io/GGApp/homepage.html',
