@@ -113,7 +113,7 @@ body
     opacity:var(--sidebar-button-blackveil-opacity);
 }
 
-.sidebar_button_icons
+.sidebar_button_icon
 {
     padding-right: var(--sidebar-button-x-padding);
 }
