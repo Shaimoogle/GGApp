@@ -24,7 +24,8 @@ $(document).ready(function () {
         $("#sidebar").removeClass('active');
         $("#blackveil").removeClass('active');
         $(this).find(".sidebar_button_blackveil").addClass('active');
-        setTimeout($(this).find(".sidebar_button_blackveil").removeClass('active'), 500);
+        var that = $(this);
+        setTimeout(that.find(".sidebar_button_blackveil").removeClass('active'), 500);
     })
 
 
