@@ -23,7 +23,7 @@ $(document).ready(function () {
     {
         $("#sidebar").removeClass('active');
         $("#blackveil").removeClass('active');
-        $(this).find(".sidebar_button_blackveil").addClass('active').delay(200).removeClass('active');
+        $(this).find(".sidebar_button_blackveil").addClass('active').delay(3000).removeClass('active');
     })
 
 
