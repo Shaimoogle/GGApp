@@ -23,10 +23,9 @@ $(document).ready(function () {
     {
         $("#sidebar").removeClass('active');
         $("#blackveil").removeClass('active');
-        $(this).find(".sidebar_button_blackveil").addClass('active').delay(600).queue(function(next)
+        $(this).find(".sidebar_button_blackveil").addClass('active').delay(600).queue(function()
         {
             $(this).find(".sidebar_button_blackveil").removeClass('active');
-            next();
         });
     })
 
