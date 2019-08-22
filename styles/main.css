@@ -7,6 +7,7 @@
     --blackveil-opacity: 0.7;
     --blackveil-opacity-speed: all 0.5s;
 
+    --sidebar-button-left-padding: 5px;
     --sidebar-button-y-padding: 5px;
     --sidebar-button-blackveil-height: 34px;
     --sidebar-button-blackveil-speed: all 0.5s;
@@ -89,6 +90,7 @@ body
 {
     padding-top : var(--sidebar-button-y-padding);
     padding-bottom : var(--sidebar-button-y-padding);
+    padding-left : var(--sidebar-button-left-padding);
     border-bottom-style: solid;
     border-bottom-color: var(--main-color);
     border-bottom-width: var(--border-width);;
